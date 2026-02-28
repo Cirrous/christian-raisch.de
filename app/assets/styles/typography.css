@@ -1,11 +1,18 @@
 html,
 body {
   font-family: "NDS12", sans-serif;
+  margin: 0;
+  height: 100%;
 }
 
 body {
-  margin: 2rem auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(@/assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 h1 {

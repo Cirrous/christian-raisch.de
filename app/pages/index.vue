@@ -1,6 +1,11 @@
 <template lang="pug">
-    h1 Hallio
-    p Check one two was geht ab 1234567890/1231
+    .index
+        h1 Hallio
+        p Check one two was geht ab 1234567890/1231
 </template>
 
-<style scoped></style>
+<style scoped>
+.index {
+  margin-top: 200px;
+}
+</style>
