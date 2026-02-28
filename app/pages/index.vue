@@ -1,11 +1,12 @@
 <template lang="pug">
-    .index
-        h1 Hallio
-        p Check one two was geht ab 1234567890/1231
+  Screen
+    template(#top)
+      h1 Top Content
+      p Hier wird der Content für den oberen Screen angezeigt
+    
+    template(#bottom)
+      h1 Bottom Content
+      p Hier wird der Content für den unteren Screen angezeigt
 </template>
 
-<style scoped>
-.index {
-  margin-top: 200px;
-}
-</style>
+<style scoped></style>

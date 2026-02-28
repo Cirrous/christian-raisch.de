@@ -15,8 +15,9 @@
 }
 
 .content {
-  width: 382px;
+  width: 384px;
   max-height: 700px;
-  margin: 74px 0;
+  height: auto;
+  margin: 68px 0 0px 0;
 }
 </style>
