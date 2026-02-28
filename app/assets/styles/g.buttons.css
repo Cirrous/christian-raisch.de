@@ -1,0 +1,59 @@
+.g-btn {
+  border: none;
+  font-size: var(--sm);
+  color: var(--darkBlue);
+  background-color: var(--color-bg);
+  backdrop-filter: blur(12px);
+  padding: var(--xs) 0;
+  display: flex;
+  gap: var(--xxs);
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.g-btn::before {
+  content: "";
+  display: inline-block;
+  width: var(--md);
+  aspect-ratio: 1 / 1;
+  background-image: url("../Arrow-Icon.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.g-btn:hover {
+  text-decoration: underline;
+}
+
+/* ::after 
+.g-btn::after {
+  content: var(--icon-arrow-right);
+  font-family: var(--icomoon-font-family);
+  font-size: 18px;
+  font-weight: 500;
+}
+*/
+
+/* disabled 
+.g-btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+*/
+
+/* secondary variant 
+.g-btn.-secondary {
+  border: 2px solid var(--secondary-light);
+  background-color: unset;
+  color: var(--white);
+}
+*/
+
+/* hover secondary 
+.g-btn.-secondary:hover:not([disabled]):not(.-inactive) {
+  background-color: var(--secondary-light);
+  color: rgba(var(--primary-dark-rgb), 0.8);
+}
+*/

@@ -1,0 +1,38 @@
+html,
+body {
+  font-family: "NDS12", sans-serif;
+}
+
+body {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h1 {
+  color: var(--black);
+  font-size: var(--lg);
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-size: var(--md);
+  margin: 0;
+}
+
+a {
+  text-decoration: unset;
+  color: var(--darkBlue);
+}
+
+hr {
+  border: 1px solid var(--lightBlue);
+  margin: var(--md) 0 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: unset;
+  margin: unset;
+  color: var(--darkBlue);
+}

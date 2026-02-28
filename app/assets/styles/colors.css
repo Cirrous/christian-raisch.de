@@ -1,0 +1,13 @@
+:root {
+  /* Basisfarben */
+  --darkBlue: #1e3d8b;
+  --black: #000000;
+  --orange: #ff662e;
+  --green: #00b39d;
+  --lightBlue: #566ea8;
+  /* Neutrale Farben */
+  --white: #ffffff;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f9fafb;
+  --color-surface: #f3f4f6;
+}

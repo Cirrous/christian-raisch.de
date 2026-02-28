@@ -1,0 +1,28 @@
+:root {
+  --min-size: 1;
+  --max-size: 4;
+
+  /* Viewport-Grenzen in rem */
+  --min-vw: 20; /* 320px */
+  --max-vw: 120; /*  1920px */
+
+  --clamp-calc: clamp(
+    calc(var(--min-size) * 1rem),
+    calc(
+      (var(--min-size) * 1rem) + (var(--max-size) - var(--min-size)) *
+        ((100vw - (var(--min-vw) * 1rem)) / (var(--max-vw) - var(--min-vw)))
+    ),
+    calc(var(--max-size) * 1rem)
+  );
+}
+
+.meineH1 {
+  font-size: var(--clamp-calc);
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+.meineH2 {
+  --min-size: 1.25;
+  --max-size: 8;
+  font-size: var(--clamp-calc);
+}
