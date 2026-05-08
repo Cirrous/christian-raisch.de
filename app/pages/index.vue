@@ -2,8 +2,7 @@
   Screen
     template(#top)
       Header
-      h1 Top Content
-      p Hier wird der Content für den oberen Screen angezeigt
+      DateTime
 
     template(#bottom)
       h1 Bottom Content
@@ -12,5 +11,6 @@
 
 <script lang="ts">
 import Header from "~/components/global/Header.vue";
+import DateTime from "~/components/DateTime.vue";
 </script>
 <style scoped></style>

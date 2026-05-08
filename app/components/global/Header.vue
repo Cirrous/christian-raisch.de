@@ -64,8 +64,8 @@ onUnmounted(() => {
 
 .headerRight {
   display: flex;
-  margin-right: 70px;
-  gap: 4px;
+  margin-right: 71px;
+  gap: 5px;
 }
 
 .header_bg {
