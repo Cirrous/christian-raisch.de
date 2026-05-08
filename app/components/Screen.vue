@@ -7,16 +7,17 @@
 </template>
 
 <style>
-.top_screen {
+.top_screen,
+.bottom_screen {
   height: 286px;
-  background-image: url(@/assets/menu_grid_small.svg);
   background-size: contain;
+}
+.top_screen {
+  background-image: url(@/assets/menu_grid_small.svg);
 }
 
 .bottom_screen {
   margin-top: 151px;
-  height: 286px;
   background-image: url(@/assets/menu_grid_large.svg);
-  background-size: contain;
 }
 </style>
